@@ -1,1 +1,59 @@
+<svg>
+  <g id="proteinBlock" class="block" pointer-events="visible" transform="translate(10%,97%)">
+   <gradientRect x="0" y="0" width="467" height="200"
+    gradient-type="linear"
+    gradient-x1="0" gradient-y1="0%"
+    gradient-x2="0" gradient-y2="80%"
+    gradient-color1="fb-cyan" gradient-color2="black"/>
+  </g>
+   <g id="proteinLine" pointer-events="visible" transform="translate(10%,97%)">
+    <gradientRect x="0" y="0" width="467" height="5"
+     gradient-type="linear"
+     gradient-x1="0" gradient-y1="0"
+     gradient-x2="400" gradient-y2="0"
+     gradient-color1="fb-cyan" gradient-color2="black" />
+  </g>
+  <g id="carbBlock" class="block" pointer-events="visible" transform="translate(10%,97%)">
+   <gradientRect x="0" y="0" width="467" height="200"
+    gradient-type="linear"
+    gradient-x1="0" gradient-y1="0%"
+    gradient-x2="0" gradient-y2="80%"
+    gradient-color1="#A945FF" gradient-color2="black"/>
+  </g>
+   <g id="carbLine" pointer-events="visible" transform="translate(10%,97%)">
+    <gradientRect x="0" y="0" width="467" height="5"
+     gradient-type="linear"
+     gradient-x1="0" gradient-y1="0"
+     gradient-x2="467" gradient-y2="0"
+     gradient-color1="#A945FF" gradient-color2="black" />
+  </g>
+  <g id="fatBlock" class="block" pointer-events="visible" transform="translate(10%,97%)">
+   <gradientRect x="0" y="0" width="467" height="200"
+    gradient-type="linear"
+    gradient-x1="0" gradient-y1="0%"
+    gradient-x2="0" gradient-y2="80%"
+    gradient-color1="#FF4545" gradient-color2="black"/>
+  </g>
+   <g id="fatLine" pointer-events="visible" transform="translate(10%,97%)">
+    <gradientRect x="0" y="0" width="467" height="5"
+     gradient-type="linear"
+     gradient-x1="0" gradient-y1="0"
+     gradient-x2="400" gradient-y2="0"
+     gradient-color1="#FF4545" gradient-color2="black" />
+  </g>
 
+  
+  <text id="date">Date</text>
+  <text id="myClock">00:00</text>
+  <text id="myWater">myWater</text>
+  <text id="myCalories">0000</text>
+  <text id="myCalorieGoal">0000</text>
+  <text id="hrm-data" class="sensor-data">HeartRate</text>
+  <image class="icon" href="fb-Meat.png" x="10%" y="52%" width="8%" height="8%"/>
+  <text id="Protein" class="Macros" x="20%" y="60%">000g</text>
+  <image class="icon" href="fb-Bread.png" x="10%" y="62%" width="8%" height="8%"/>
+  <text id="Carb" class="Macros" x="20%" y="70%">000g</text>
+  <image class="icon" href="fb-Fire.png" x="10%" y="72%" width="7%" height="9%"/>
+  <text id="Fat" class="Macros" x="20%" y="80%">000g</text>
+
+</svg>
