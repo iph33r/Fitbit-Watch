@@ -1,1 +1,82 @@
 
+
+.background {
+  viewport-fill: black;
+}
+
+#date {
+  font-family: Fabrikat-Regular;
+  font-size: 26;
+  text-anchor: start;
+  text-length: 32;
+  x: 8%;
+  y: 20%;
+  width: 100%;
+  height: 100%;
+  fill: #ffffff;
+}
+
+#myClock {
+  fill: white;
+  font-size: 97;
+  font-family: Fabrikat-Bold;
+  text-length: 32;
+  text-anchor: start;
+  x: 5%;
+  y: 45%;
+}
+
+#myWater {
+  fill: fb-cyan;
+  font-family: Fabrikat-Regular;
+  font-size: 26;
+  text-anchor: start;
+  text-length: 32;
+  x: 70%;
+  y: 20%;
+}
+
+.sensor-data {
+  font-family: Fabrikat-Bold;
+  fill: white;
+  text-anchor: end;
+  text-length: 64;
+  font-size: 120;
+  x: 91%;
+  y: 80%;
+}
+
+.Macros{
+  fill: white;
+  font-size: 32;
+  font-family: Fabrikat-Regular;
+  font-weight: bold;
+  text-anchor: start;
+  text-length: 20;
+}
+
+.block{
+  opacity: 0.25;
+}
+
+#myCalories{
+  fill: white;
+  font-size: 32;
+  font-family: Fabrikat-Regular;
+  font-weight: bold;
+  text-anchor: end;
+  text-length: 20;
+  x: 297; 
+  y: 45%;
+}
+
+#myCalorieGoal{
+  fill: #252525;
+  font-size: 32;
+  font-family: Fabrikat-Regular;
+  font-weight: bold;
+  text-anchor: end;
+  text-length: 20;
+  x: 297; 
+  y: 35%;
+}
